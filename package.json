@@ -1,5 +1,5 @@
 {
-  "name": "jdcode",
+  "name": "jdWxPusher",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,8 +7,20 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "ant-design-vue": "^2.2.8",
+    "axios": "^0.26.1",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "express": "^4.18.1",
+    "install": "^0.13.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "pinia": "^2.0.14",
+    "vant": "^3.4.8",
+    "vue": "^3.0.0",
+    "vue-cookies": "^1.8.1",
+    "vue-router": "4",
+    "vue-wechat-title": "^2.0.7",
+    "vue3-puzzle-vcode": "^1.0.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.13",
